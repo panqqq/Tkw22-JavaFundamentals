@@ -1,0 +1,2 @@
+class Doctor extends Employee{
+}

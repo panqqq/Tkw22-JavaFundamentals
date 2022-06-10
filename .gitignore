@@ -1,0 +1,6 @@
+#Build results
+out/
+target/
+### InteliJ IDEA ###
+*.iml
+.idea/
