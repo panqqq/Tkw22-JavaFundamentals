@@ -12,10 +12,11 @@ public class Main {
     }
 
     public static ArrayList<Integer> nearestNumber(ArrayList<Integer> list, Integer n) {
-        Integer step = Integer.MAX_VALUE;
+        int step = Integer.MAX_VALUE;
         ArrayList<Integer> newList = new ArrayList<>();
             for (Integer item : list) {
                 if (Math.abs(item-n) < step) step = Math.abs(item-n);
+
             }
         for (Integer item2 : list) {
             if(Math.abs(item2-n) == step) newList.add(item2);
